@@ -89,11 +89,13 @@ These tools are wrapped and exposed to the LLM using LangChain’s `@tool` decor
 1. *Install dependencies*
 ```bash
 pip install streamlit pandas langchain langchain-community langchain-experimental langchain-core
+```
 
 2. *Install Ollama*
 ```bash
 ollama run mistral
-
+```
 3. *Start the Streamlit app*
 ```bash
     streamlit run app.py
+```
